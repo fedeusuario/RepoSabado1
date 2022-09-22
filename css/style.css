@@ -1,0 +1,447 @@
+/*general a todos los HTML*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+padding: 0;
+}
+html{
+    font-size: 62.5%;
+    background-image: url(../background/fondoprueba.jpg);
+}
+/*ends general a todos los HTML*/
+/*la botonera*/
+nav ul {
+    display:inline-block;
+    position: fixed;
+    top: 0px;
+}
+body nav ul li{
+    display:inline-block;
+}
+body nav ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #f6db35;
+    line-height: 2.4rem;
+    list-style: none;
+    text-decoration: none;
+    color: #f6db35;
+    margin: 10px 40px;
+}
+body nav ul li a:hover{
+    color: white;
+}
+/*ends la botonera*/
+/*header*/
+header {
+    width: 73.2%;
+    height: auto;
+    margin: 10px 120px;
+    padding: 0;
+    border: solid black 3px;
+}
+header:hover{
+    transform: scale(1.1)
+}
+/*ends header*/
+/*main*/
+main section h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    color: #ee5454;
+    line-height: 2.4rem;
+}
+main section h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #ee5454;
+    line-height: 2rem;
+}
+/*main del Index*/
+main section .titulosIndex{
+    width: 80%;
+    height: auto;
+    margin: 40px 120px 10px 120px;
+    padding: 0;
+}
+main section .parrafosIndex{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ffc510;
+    line-height: 2rem;
+    width: 80%;
+    height: auto;
+    margin: 0px 120px 10px 120px;
+    padding: 0;
+
+}
+main section .parrafosIndex a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ffc510;
+    line-height: 2rem;
+}
+main section .parrafosIndex a:hover{
+    color:white;
+}
+main section .textoContacto{
+    color:#4c94f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+#contacto{
+    color:#4c94f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.contactanosSection{
+    width: 40%;
+    height: auto;
+    margin: 50px 100px 0px 120px;
+    padding: 0;
+    display: inline-block;
+}
+#contacto ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.iframeSection{
+    width: 40%;
+    display:inline-block
+}
+.enviarBoton{
+    margin: 10px 100px 0px 20px;
+}
+.enviarBoton:hover{
+    cursor:pointer
+}
+.cancelarBoton:hover{
+    cursor:pointer
+}
+/*ends main del Index*/
+/*main del Sobre Nosotros*/
+main section .tituloSobreNosotros{
+    width: 80%;
+    height: auto;
+    margin: 40px 120px 10px 120px;
+    padding: 0;
+}
+main section .parrafoSobreNosotros {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ee5454;
+    line-height: 2rem;
+    width: 80%;
+    height: auto;
+    margin: 0px 120px 10px 120px;
+    padding: 0;
+}
+main section .parrafoSobreNosotros a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ee5454;
+    line-height: 2rem;
+}
+main section .parrafoSobreNosotros a:hover{
+    color: white;
+}
+main section .tituloH2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #ffc510;
+    line-height: 2rem;
+}
+main section .iframeSobreNosotros {
+    width: 80%;
+    height: auto;
+    margin: 0px 120px 10px 120px;
+    padding: 0;
+}
+main section .contactanosIframe{
+    width: 50%;
+    height: auto;
+    margin: 50px 100px 0px 120px;
+    padding: 0;
+}
+/*ends main del Sobre Nosotros*/
+/*main del Comics*/
+main section .parrafoGrande{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #ee5454;
+    line-height: 2.2rem;
+    width: 80%;
+    height: auto;
+    margin: 40px 120px 0px 120px;
+    padding: 0;
+}
+main section .parrafoChico{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ffc510;
+    line-height: 2rem;
+    width: 80%;
+    height: auto;
+    margin: 10px 120px 10px 120px;
+    padding: 0;
+}
+main section .parrafoChico a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ffc510;
+    line-height: 2rem;
+}
+main section .parrafoChico a:hover {
+    color: white;
+}
+main section .tituloComics{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    color: #ee5454;
+    line-height: 2.4rem;
+    width: 80%;
+    height: auto;
+    margin: 40px 120px 0px 120px;
+    padding: 0;
+    text-align:center;
+}
+main section .videoYoutube{
+    margin: 10px 100px 60px 300px;
+    border: solid black 4px;
+}
+.galeriaComics{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    row-gap: 20px;
+    grid-template-areas:
+    "uno dos tres cuatro"
+    "cinco seis siete ocho";
+}
+.comic1{
+grid-area: uno;
+}
+.comic2{
+grid-area: dos;
+}
+.comic3{
+grid-area: tres;
+}
+.comic4{
+grid-area: cuatro;
+}
+.comic5{
+grid-area: cinco;
+}
+.comic6{
+grid-area: seis;
+}    
+.comic7{
+grid-area: siete;
+}  
+.comic8{
+grid-area: ocho;
+}  
+.gridcomic{display:grid
+}
+.galeriaComics figure{
+    color:#4c94f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.precioComics{
+    color:#4c94f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+/*ends main del Comics*/
+/*main del Merchandising*/
+main section .tituloMerchandising{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    color: #ee5454;
+    line-height: 2.4rem;
+    width: 80%;
+    height: auto;
+    margin: 40px 120px 10px 120px;
+    padding: 0;
+    text-align: center;
+}
+main section .parrafoMerchandising{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ffc510;
+    line-height: 2rem;
+    width: 80%;
+    height: auto;
+    margin: 0px 120px 10px 120px;
+    padding: 0;
+}
+main section .parrafoMerchandising a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ffc510;
+    line-height: 2rem;
+}
+main section .parrafoMerchandising a:hover{
+    color:white;
+}
+.galeriaMercha{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    row-gap: 20px;
+    grid-template-areas:
+    "uno dos tres"
+    "cuatro cinco seis";
+}
+.merchaUno{
+grid-area: uno;
+}
+.merchaDos{
+grid-area: dos;
+}
+.merchaTres{
+grid-area: tres;
+}
+.merchaCuatro{
+grid-area: cuatro;
+}
+.merchaCinco{
+grid-area: cinco;
+}
+.merchaSeis{
+grid-area: seis;
+}    
+.gridMercha{display:grid
+
+}
+.galeriaMercha figure{
+    color:#4c94f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.precioMercha{color:#4c94f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+/*ends main del Merchandising*/
+/*main del Promociones*/
+main .sectionPromociones h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    color: #ee5454;
+    line-height: 2.4rem;
+    width: 50%;
+    height: auto;
+    margin: 20px 100px 0px 120px;
+    padding: 0;
+}
+main .sectionPromociones h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #ee5454;
+    line-height: 2rem;
+    width: 50%;
+    height: auto;
+    margin: 20px 100px 0px 120px;
+    padding: 0;
+}
+main .sectionPromociones p {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ffc510;
+    line-height: 2rem;
+    width: 50%;
+    height: auto;
+    margin: 20px 100px 0px 120px;
+    padding: 0;
+}
+main .sectionPromocionesAbajo {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ffc510;
+    line-height: 2rem;
+    width: 50%;
+    height: auto;
+    margin: 20px 100px 0px 120px;
+    padding: 0;
+}
+main .sectionPromocionesAbajo a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ffc510;
+    line-height: 2rem;
+}
+main .sectionPromocionesAbajo a:hover{
+    color: white;
+}
+/*ends main del Promociones*/
+/*ends main*/
+/*footer*/
+footer{
+    width: 37%;
+    height: auto;
+    margin: 50px 100px 0px 400px;
+    padding: 0;
+    border: solid #4c94f6 3px;
+}
+footer p{
+    color:#4c94f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+footer:hover{
+    transform:scaleX(1.2)
+}
+/*ends footer*/
+/*footer del Promociones*/
+.footerPromociones{
+    width: 37%;
+    height: auto;
+    margin: 20px 100px 0px 120px;
+    padding: 0;
+    border: solid #4c94f6 3px;
+    color:#4c94f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.footerPromociones:hover{
+transform:scaleX(1.2)
+}  
+/*ends footer del Promociones*/
